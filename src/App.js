@@ -23,7 +23,7 @@ function App() {
           </div>}
       >
         <Switch>
-          <Route path='/' exact>
+          <Route path='/React_quotes/' exact>
             <Redirect to='/quotes' />
           </Route>
           <Route path='/quotes' exact>
